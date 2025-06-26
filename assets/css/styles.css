@@ -1,0 +1,59 @@
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #F2F2F2;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+
+/* Header - Mobile first */
+
+
+#logo a {
+    display: flex;
+    align-items: center;
+}
+#logo-image {
+    width: 50px;
+}
+h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav-item:hover {
+    scale: 1.1;
+    transition: scale 0.3s ease-in-out;
+}
+
+#banner-img{
+    cursor: pointer;
+}
+
+.products-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.products-card:hover {
+   scale: 1.02;
+    box-shadow: 0 5px 9px rgba(0, 0, 0, 0.3);
+    transition: scale 0.3s ease-in-out, box-shadow 0.3s ease-in-out;   
+}

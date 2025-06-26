@@ -1,0 +1,12 @@
+
+/* Estructura de la página */
+body {
+    display: grid;
+    min-height: 100dvh;
+    grid-template-rows: auto 1fr auto;
+}
+
+textarea{
+    resize: none;
+}
+
