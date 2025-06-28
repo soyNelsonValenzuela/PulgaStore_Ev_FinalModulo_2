@@ -13,16 +13,11 @@ Implementar un sitio web **estático, responsive y funcional**, utilizando **HTM
 ## ⚙️ Funcionalidades
 
   - Menú de navegación (`navbar`)
-  - Footer con información
   - Contenedores y secciones de contenido
-  - Formulario de contacto funcional
+  - Formulario de contacto
   - Responsividad con **Bootstrap**
-  - Efectos dinámicos con **JavaScript**
-  - Eventos de botones
-  - Manipulación del DOM
-  - Uso de **jQuery**:
-  - Fancybox
-  - DataTables para la seccion de pedidos
+  - Eventos y manipulación del DOM con JS
+  - Uso de plugins **jQuery**: Fancybox y DataTable
 
 ## 📱 Diseño Responsive
 
